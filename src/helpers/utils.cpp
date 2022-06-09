@@ -175,7 +175,8 @@ namespace utils {
 		else if (val == "num8") key = LedKeyboard::Key::num_8;
 		else if (val == "num9") key = LedKeyboard::Key::num_9;
 		else if (val == "num0") key = LedKeyboard::Key::num_0;
-		else if (val == "num." || val == "num_period" || val == "numperiod") key = LedKeyboard::Key::num_dot;
+		else if (val == "num." || val == "num_dot" || val == "numdot" || val == "num_period" || val == "numperiod")
+			key = LedKeyboard::Key::num_dot;
 		else if (val == "intl_backslash" || val == "<") key = LedKeyboard::Key::intl_backslash;
 		else if (val == "menu") key = LedKeyboard::Key::menu;
 		else if (val == "ctrl_left" || val == "ctrlleft" || val == "ctrll") key = LedKeyboard::Key::ctrl_left;

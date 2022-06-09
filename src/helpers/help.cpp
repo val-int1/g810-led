@@ -223,7 +223,7 @@ namespace help {
 			cout<<"    num_plus, numplus, num+"<<endl;
 			cout<<"    numenter"<<endl;
 			cout<<"    num0 - num9"<<endl;
-			cout<<"    num_dot, numdot, num."<<endl;
+			cout<<"    num_dot, numdot, num_period, numperiod, num."<<endl;
 			cout<<""<<endl;
 		}
 		
